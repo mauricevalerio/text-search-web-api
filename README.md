@@ -14,7 +14,7 @@ NOTE:
 - Containerized web API application. Replace brackets with desired parameters.
     - `docker build -t [docker-image-name] [dockerfile path]`
     - `docker run -d -p [host-port]:8080 [docker-image-name]`
-NOTE: host-port must be different from the web front-end
+    - NOTE: host-port must be different from the web front-end
 
 ## Problem Description
 Implement a text search web API written in Microsoft C# .NET Core deployed to in a local IIS and write the front-end in Angular 13 using Visual Studio Code. For Mac or Linux please implement the web API written in Java and deploy to Apache Tomcat and write the front-end in Angular 13 using Visual Studio Code.
